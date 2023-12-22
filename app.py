@@ -50,6 +50,7 @@ def connect_unix_socket() -> sqlalchemy.engine.base.Engine:
     return pool
 
 # Setting tidak di pakai
+#tespush
 # # DB_USER = os.environ["DB_USER"]
 # # DB_PASS = os.environ["DB_PASS"]
 # # DB_NAME = os.environ["DB_NAME"]
